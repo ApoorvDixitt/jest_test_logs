@@ -1,0 +1,30 @@
+# Development files
+*.sh
+
+# Old structure files (removed)
+
+# User I/O files (not part of package)
+input.txt
+output.txt
+
+# Git and development
+.git/
+.gitignore
+.DS_Store
+*.log
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test files
+test/
+tests/
+__tests__/

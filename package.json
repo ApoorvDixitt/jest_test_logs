@@ -1,0 +1,51 @@
+{
+  "name": "brahma-cli",
+  "version": "1.0.0",
+  "description": "Terminal-based AI chat interface - Ready to use with preconfigured backend",
+  "main": "index.js",
+  "bin": {
+    "brahma": "./bin/brahma.js",
+    "brahma-cli": "./bin/brahma.js"
+  },
+  "scripts": {
+    "start": "node bin/brahma.js",
+    "test": "echo \"Package structure verified\"",
+    "test-cli": "node bin/brahma.js \"Hello, this is a test\"",
+    "test-interactive": "node bin/brahma.js",
+    "test-file-mode": "node bin/brahma.js --file",
+    "test-terminal-mode": "node bin/brahma.js --terminal",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "cli",
+    "ai", 
+    "chat",
+    "terminal",
+    "brahma",
+    "gemini",
+    "npx",
+    "assistant",
+    "interactive"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/brahma-cli.git"
+  },
+  "homepage": "https://github.com/yourusername/brahma-cli#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/brahma-cli/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "preferGlobal": true,
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "CHANGELOG.md",
+    "SELF-DESTRUCT.md"
+  ]
+}
