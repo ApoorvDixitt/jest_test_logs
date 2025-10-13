@@ -63,23 +63,7 @@ npm install -g brahma-cli
 
 # Use with short command
 brahma
-```
-
-### Clone and Use (Zero Dependencies)
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/brahma-cli.git
-cd brahma-cli
-
-# Run directly with Node.js (no npm install needed!)
-node bin/brahma.js
-
-# Or use npm scripts
-npm start
-```
-
-**✨ No dependencies to install!** This CLI now uses only Node.js built-in modules, so you can clone and run immediately on any system with Node.js 14+.
+````
 
 ## 🛠️ Configuration
 

@@ -41,6 +41,9 @@
     "node": ">=14.0.0"
   },
   "preferGlobal": true,
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
   "files": [
     "bin/",
     "lib/",
