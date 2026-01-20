@@ -1,0 +1,26 @@
+╔════════════════════════════════════════════════════════════╗
+║              BRAHMA AGENT MODE - ERROR                     ║
+║  Timestamp: 2026-01-20T00:39:41.551Z        ║
+╚════════════════════════════════════════════════════════════╝
+
+Error: Test path does not exist: /Users/dixitt_ji/Downloads/Brahma_CLI/src/test/java/org/example/evaluations
+
+Stack Trace:
+Error: Test path does not exist: /Users/dixitt_ji/Downloads/Brahma_CLI/src/test/java/org/example/evaluations
+    at BrahmaAgent.validatePaths (/Users/dixitt_ji/Downloads/Brahma_CLI/lib/agent.js:206:13)
+    at BrahmaAgent.run (/Users/dixitt_ji/Downloads/Brahma_CLI/lib/agent.js:104:18)
+    at [eval]:10:7
+    at runScriptInThisContext (node:internal/vm:209:10)
+    at node:internal/process/execution:449:12
+    at [eval]-wrapper:6:24
+    at runScriptInContext (node:internal/process/execution:447:60)
+    at evalFunction (node:internal/process/execution:87:30)
+    at evalScript (node:internal/process/execution:99:3)
+    at node:internal/main/eval_string:74:3
+
+Possible Solutions:
+1. Verify the workspace path exists: /workspace
+2. Check that test files exist in: /workspace/src/test/java/org/example/evaluations
+3. Check that source files exist in: /workspace/src/main/java/org/example/evaluations
+4. Ensure the backend server is running at: https://brahma-backend.onrender.com/autonomous-agent
+5. Check your network connection
